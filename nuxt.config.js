@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'beer4allcz',
+    title: 'BEER 4 ALL - nejlepší pivo pro všechny',
     htmlAttrs: {
       lang: 'en'
     },
@@ -14,12 +14,13 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.png' }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    'assets/less/style'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

@@ -1,0 +1,194 @@
+/* Header */
+nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  @media (min-width: 992px) {
+    display: block;
+  }
+  @media (max-width: 991.98px) {
+    background-color: #fff;
+    border-bottom: 1px solid #ebebeb;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 101;
+  }
+  .navbar-brand {
+    img {
+      height: 33px;
+    }
+    @media (min-width: 992px) {
+      padding-top: 32px;
+      padding-bottom: 32px;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      img {
+        height: auto;
+      }
+    }
+    @media (min-width: 1200px) {
+      padding-top: 42px;
+      padding-bottom: 42px;
+    }
+    a {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  .navbar-toggle {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    cursor: pointer;
+    color: #363636;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 101;
+    @media (min-width: 992px) {
+      display: none;
+    }
+    span {
+      position: relative;
+      display: block;
+      margin: auto;
+      transition: .3s all ease;
+      &, &::before, &::after {
+        width: 24px;
+        height: 4px;
+        background-color: #363636;
+        backface-visibility: hidden;
+      }
+      &::before, &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: -8px;
+        transition: .3s all ease;
+        -webkit-transition-duration: 0.3s, 0.3s;
+        transition-duration: 0.3s, 0.3s;
+        -webkit-transition-delay: 0.3s, 0s;
+        transition-delay: 0.3s, 0s;
+        -webkit-transition-property: top, -webkit-transform;
+        transition-property: top, transform;
+      }
+      &::after {
+        top: 8px;
+      }
+    }
+  }
+  .navbar-content {
+    @media (max-width: 991.98px) {
+      background: #fff;
+      border-left: 1px solid #ebebeb;
+      height: 100vh;
+      position: fixed;
+      padding: 43px 0 81px;
+      right: -280px;
+      top: 0;
+      transition: .3s;
+      width: 280px;
+      z-index: 100;
+    }
+    @media (min-width: 992px) {
+      border-top: 1px solid #ebebeb;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-right: 15px;
+      padding-left: 15px;
+      position: sticky;
+      top: 0;
+    }
+    ul {
+      display: block;
+      text-align: right;
+      list-style: none;
+      padding: 14px 0;
+      margin: 0;
+      @media (min-width: 992px) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        flex-grow: 1;
+        font-size: 0;
+        line-height: 0;
+        text-align: left;
+        opacity: 1;
+        transition: .33s;
+      }
+      li {
+        font-size: 12px;
+        line-height: 1.4;
+        a {
+          background: transparent;
+          color: #151515;
+          cursor: pointer;
+          font-size: 13px;
+          font-weight: 600;
+          line-height: 1.33333;
+          letter-spacing: .1em;
+          text-transform: uppercase;
+          display: block;
+          padding: 9px 56px 9px 18px;
+          &.active {
+            color: #fff;
+            background: #9d7f6c;
+          }
+          @media (min-width: 992px) {
+            padding: 5px 7px;
+            display: inline-block;
+            &:hover,
+            &.active {
+              background: transparent;
+              color: #9d7f6c;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.is-show {
+    .navbar-content {
+      @media (max-width: 991.98px) {
+        right: 0;
+      }
+    }
+    .navbar-toggle {
+      span {
+        transition: background .3s 0s ease;
+        background: transparent;
+        &::before, &::after {
+          top: 0;
+          -webkit-transition-delay: 0s, 0.3s;
+          transition-delay: 0s, 0.3s;
+        }
+        &::before {
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+        &::after {
+          -webkit-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+}

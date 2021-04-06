@@ -1,10 +1,10 @@
 <template>
   <div>
     <header>
+      <div class="logo">
+        <Logo />
+      </div>
       <nav class="click-dropdown">
-        <div class="navbar-brand">
-          <Logo />
-        </div>
 
         <div class="navbar-content click-dropdown-content">
           <ul>

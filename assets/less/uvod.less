@@ -2,8 +2,12 @@
 #uvod {
   width: 100%;
   .main-carousel-item {
-    min-height: 34.4271vw;
+    min-height: 50vw;
     position: relative;
+    display: grid;
+    @media (min-width: 768px) {
+      min-height: 34.4271vw;
+    }
     img {
       position: absolute;
       width: 100%;
@@ -17,13 +21,15 @@
     }
     .cta {
       border: 1px solid white;
-      padding: 20px;
+      padding: 10px 15px;
       color: white;
-      font-size: 24px;
+      font-size: 20px;
       position: relative;
-      top: 260px;
-      left: 45%;
-
+      margin: auto;
+      @media (min-width: 768px) {
+        padding: 20px;
+        font-size: 24px;
+      }
       &:hover {
         background: #fff;
         color: black;

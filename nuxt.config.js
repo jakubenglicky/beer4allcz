@@ -15,6 +15,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: './img/favicon.png' }
+    ],
+    script: [
+      { src: '/js/main.js', body: true }
     ]
   },
 

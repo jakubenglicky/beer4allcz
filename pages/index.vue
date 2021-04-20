@@ -3,10 +3,14 @@
   <section id="uvod">
       <div class="main-carousel-item">
         <img src="img/main.jpg">
-
+        <a href="#programy" class="cta">
+          <span>
+            NAŠE PROGRAMY
+          </span>
+        </a>
       </div>
   </section>
-  <section id="o-mne">
+  <section id="o-nas">
     <div class="container">
       <div class="row">
         <div>
@@ -40,16 +44,16 @@
             <div class="image">
               <img src="img/pan_hospodsky.jpg">
             </div>
-            <h3>PAN HOSPODSKÝ</h3>
+            <h3>PAN HOSPODSKÝ - domácí profesionál</h3>
             <p>Budete umět vysanitovat a udržovat svůj výčep, znát teorii výroby piva a současně budete schopni načepovat to nejlepší pivo</p>
           </a>
         </div>
         <div class="col-md-4 service-box">
           <a href="/">
             <div class="image">
-              <img src="img/mistr_vycepni.jpg">
+              <img src="img/pan_vycepni.jpg">
             </div>
-            <h3>MISTR VÝČEPNÍ</h3>
+            <h3>PAN VÝČEPNÍ - pivní znalec</h3>
             <p>
               Budete mít znalosti jako ti nejlepší výčepní a dokážete kdykoli načepovat skvělé pivo
             </p>
@@ -60,7 +64,7 @@
             <div class="image">
               <img src="img/gastroprovozy.jpg">
             </div>
-            <h3>GASTROPROVOZY</h3>
+            <h3>PROGRAM PRO GASTROPROVOZY</h3>
             <p>
               Chcete mít v restauraci lepší pivo než konkurence, případně ve vaší klubovně mít skvělé pivo ?
             </p>

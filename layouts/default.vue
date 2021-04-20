@@ -9,13 +9,16 @@
         <div class="navbar-content click-dropdown-content">
           <ul>
             <li>
-              <a href="#uvod">Úvod</a>
+              <a href="/">Úvod</a>
             </li>
             <li>
-              <a href="#o-mne">O mně</a>
+              <a href="#o-nas">O nás</a>
             </li>
             <li>
               <a href="#programy">Naše programy</a>
+            </li>
+            <li>
+              <a href="#poradenstvi">Poradenství a servis</a>
             </li>
             <li>
               <a href="#kontakt">Kontakt</a>

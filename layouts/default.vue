@@ -46,9 +46,10 @@
             <h4>Kontakt</h4>
             <ul>
               <li>Miroslav Tovara</li>
-              <li>mail: <a href="mailto:info@zorak.cz">info@beer4all.cz</a></li>
+              <li>mail: <a href="mailto:pivo@beer4all.cz">pivo@beer4all.cz</a></li>
+              <li>tel: <a href="tel:+420737224062">+420 737 224 062</a></li>
             </ul>
-            <p>Máte dotaz či připomínku? <a href="mailto:info@beer4all.cz">Napište nám.</a></p>
+            <p>Máte dotaz či připomínku? <a href="mailto:pivo@beer4all.cz">Napište nám.</a></p>
           </div>
           <div class="col-md-4">
             <h4>Sledujte nás</h4>
@@ -59,7 +60,7 @@
       </div>
       <hr>
       <div class="copyright-row">
-        <div class="copyright">© 2021 VYEN</div>
+        <div class="copyright">© 2021 BEER 4 ALL</div>
       </div>
     </footer>
   </div>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="logo">
-      <Logo />
+      <NuxtLink to="/"><Logo /></NuxtLink>
     </div>
     <header>
       <nav class="click-dropdown">
@@ -39,10 +39,7 @@
     <footer>
       <div class="container" id="kontakt">
         <div class="row">
-          <div class="col-md-4">
-
-          </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <h4>Kontakt</h4>
             <ul>
               <li>Miroslav Tovara</li>
@@ -51,11 +48,12 @@
             </ul>
             <p>Máte dotaz či připomínku? <a href="mailto:pivo@beer4all.cz">Napište nám.</a></p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <h4>Sledujte nás</h4>
-            <a href="https://www.facebook.com"></a>
-            <a href="insta"></a>
+            <a href="https://www.facebook.com/beer4all.cz/" class="social-link" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+            <a href="https://www.instagram.com/beer4all.cz/" class="social-link" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
           </div>
+
         </div>
       </div>
       <hr>

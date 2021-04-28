@@ -14,7 +14,8 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: './img/favicon.png' }
+      { rel: 'icon', type: 'image/x-icon', href: './img/favicon.png' },
+      { rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'}
     ],
     script: [
       { src: '/js/main.js', body: true }

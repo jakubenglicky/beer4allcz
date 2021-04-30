@@ -4,7 +4,7 @@
     <div class="program-detail">
       <h2>Poradenství a servis</h2>
        <div class="mainInfo">
-          <img src="img/servis.jpg">
+          <img src="/img/servis.jpg">
       </div>
       <div class="row">
         <div class="col-md-12">

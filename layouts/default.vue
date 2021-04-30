@@ -12,19 +12,19 @@
         <div class="navbar-content click-dropdown-content">
           <ul>
             <li>
-              <a href="/" class="close-drop">Úvod</a>
+              <nuxt-link to="/" class="close-drop">Úvod</nuxt-link>
             </li>
             <li>
-              <a href="#o-nas" class="close-drop">O nás</a>
+              <nuxt-link to="/#o-nas" class="close-drop">O nás</nuxt-link>
             </li>
             <li>
-              <a href="#programy" class="close-drop">Naše programy</a>
+              <nuxt-link to="/#programy" class="close-drop">Naše programy</nuxt-link>
             </li>
             <li>
-              <a href="#poradenstvi" class="close-drop">Poradenství a servis</a>
+              <nuxt-link to="/poradenstvi-a-servis" class="close-drop">Poradenství a servis</nuxt-link>
             </li>
             <li>
-              <a href="#kontakt" class="close-drop">Kontakt</a>
+              <nuxt-link to="#kontakt" class="close-drop">Kontakt</nuxt-link>
             </li>
           </ul>
         </div>

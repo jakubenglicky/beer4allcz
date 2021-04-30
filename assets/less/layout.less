@@ -28,7 +28,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #9d7f6c;
+  color: #9D5000;
   text-decoration: none;
   outline: none;
 }
@@ -138,6 +138,14 @@ svg {
   padding-left: 15px;
 }
 
+.col-md-3 {
+  @media (min-width: 768px) {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
 .col-md-4 {
   @media (min-width: 768px) {
     -ms-flex: 0 0 33.333333%;
@@ -160,5 +168,26 @@ svg {
     flex: 0 0 58.333333%;
     max-width: 58.333333%;
   }
+}
+
+.col-md-8 {
+  @media (min-width: 768px) {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+}
+
+.col-md-9 {
+  @media (min-width: 768px) {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
+
+.breadcrumb {
+  font-size: 15px;
+  margin-top: 15px;
 }
 

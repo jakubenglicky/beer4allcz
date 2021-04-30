@@ -1,31 +1,70 @@
 .program-detail {
-  font-size: 22px;
+  font-size: 18px;
   color: black;
+  padding-bottom: 100px;
   h2 {
-    padding: 30px;
+    margin: 30px 30px 0;
     text-align: center;
   }
-
   ul {
     font-size: 18px;
   }
 
   img {
-    padding: 10px 0 40px 80px ;
+    //padding: 10px 0 40px 80px ;
+  }
+
+  .mainDescription {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-size: 19px;
+    text-align: center;
+  }
+
+  ol {
+    padding-left: 30px;
   }
 
   .price-box {
-    font-size: 18px;
-    border: 1px solid silver;
-    padding: 0 0 20px 40px ;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+    div:not(.disclaimer) {
+      border-bottom: 1px solid #ebebeb;
+    }
+    span {
+      font-size: 14px;
+    }
+    // border: 1px solid silver;
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     ul {
       list-style: none;
     }
 
     .disclaimer {
-      font-size: 14px;
+      margin-top: 20px;
+      font-size: 12px;
       color: dimgrey;
+    }
+  }
+
+  .mainInfo {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+    img {
+      //padding-top: 30px;
+      box-shadow: 5px 10px 20px #888888;
+    }
+  }
+
+  .gallery {
+    text-align: center;
+    margin-top: 100px;
+    img {
+      padding: 0px;
+      width: 350px;
     }
   }
 }

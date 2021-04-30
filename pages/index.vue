@@ -36,7 +36,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <a href="/">
+          <nuxt-link to="pan-hospodsky">
             <div class="service-box">
               <div class="image">
                 <img src="img/pan_hospodsky.jpg">
@@ -46,10 +46,10 @@
                 <p>Budete umět vysanitovat a udržovat svůj výčep, znát teorii výroby piva a současně budete schopni načepovat to nejlepší pivo</p>
               </div>
             </div>
-          </a>
+          </nuxt-link>
         </div>
         <div class="col-md-4">
-          <a href="/">
+          <nuxt-link to="pan-vycepni">
             <div class="service-box">
               <div class="image">
                 <img src="img/pan_vycepni.jpg">
@@ -61,10 +61,10 @@
                 </p>
               </div>
             </div>
-          </a>
+          </nuxt-link>
         </div>
         <div class="col-md-4">
-          <a href="/">
+          <nuxt-link to="gastroprovozy">
             <div class="service-box">
               <div class="image">
                 <img src="img/gastroprovozy.jpg">
@@ -76,7 +76,7 @@
                 </p>
               </div>
             </div>
-          </a>
+          </nuxt-link>
         </div>
       </div>
 

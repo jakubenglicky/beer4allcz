@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pan-hospodsky", {data:[{}],fetch:{},mutations:void 0});

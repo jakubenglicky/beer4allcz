@@ -26,7 +26,7 @@
     border-radius: 5px;
     padding: 15px;
     font-size: 16px;
-    div:not(.disclaimer) {
+    div:not(.disclaimer, .btnPlace) {
       border-bottom: 1px solid #ebebeb;
     }
     span {
@@ -42,6 +42,23 @@
       margin-top: 20px;
       font-size: 12px;
       color: dimgrey;
+    }
+
+    .btnPlace {
+      text-align: center;  
+      .btn {
+        border: 2px solid black;
+        display:inline-block;
+        margin-top: 30px;
+        padding: 5px;
+        background-color: #000;
+        color: #fff;
+
+          &:hover {
+            background-color: #fff;
+            color: #000;
+          }
+      }
     }
   }
 

@@ -92,16 +92,16 @@
           <br><br>
           <div class="row">
             <div class="col-md-6">
-              <a href="/img/projects/001.JPG" data-lightbox="projects-2"><img src="/img/projects/001.JPG" width="250"></a>
+              <a href="/img/projects/001.jpg" data-lightbox="projects-2"><img src="/img/projects/001.jpg" width="250"></a>
             </div>
             <div class="col-md-6">
-              <a href="/img/projects/002.JPG" data-lightbox="projects-2"><img src="/img/projects/002.JPG" width="250"></a>
+              <a href="/img/projects/002.jpg" data-lightbox="projects-2"><img src="/img/projects/002.jpg" width="250"></a>
             </div>
           </div>
           <br>
           <div class="row">
             <div class="col-md-12">
-              <a href="/img/projects/003.JPG" data-lightbox="projects-2"><img src="/img/projects/003.JPG" width="250"></a>
+              <a href="/img/projects/003.jpg" data-lightbox="projects-2"><img src="/img/projects/003.jpg" width="250"></a>
             </div>
           </div>
         </div>

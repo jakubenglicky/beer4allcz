@@ -21,7 +21,7 @@
               <nuxt-link to="/#programy" class="close-drop">Naše programy</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/poradenstvi-a-servis" class="close-drop">Poradenství a servis</nuxt-link>
+              <nuxt-link to="/#servis" class="close-drop">Poradenství a servis</nuxt-link>
             </li>
             <li>
               <nuxt-link to="#kontakt" class="close-drop">Kontakt</nuxt-link>

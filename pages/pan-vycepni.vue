@@ -24,10 +24,8 @@
           <div class="price-box">
             <div>Doba trvání: 2 <span>hodiny</span></div>
             <div>Cena kurzu: 1 990 Kč </div>
-            <span>+ doprava 4 Kč / km <br>
-              z Rakovníka
-            </span>
-            <div class="disclaimer">Cena je uvedena včetně DPH a zahrnuje spotřební materiál pro sanitaci a údržbu (chemie, drobné náhradní díly)</div>
+            <span>+ doprava z Rakovníka <br> 4 Kč / km</span>
+            <div class="disclaimer">Cena je uvedena včetně DPH</div>
             <div class="btnPlace">
               <a class="btn" href="mailto:pivo@beer4all.cz">Kontaktujte nás</a>
             </div>

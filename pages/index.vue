@@ -34,6 +34,7 @@
   </section>
   <section id="programy">
     <div class="container">
+      <h2>Naše programy</h2>
       <div class="row">
         <div class="col-md-4">
           <nuxt-link to="pan-hospodsky">
@@ -80,6 +81,41 @@
         </div>
       </div>
 
+    </div>
+  </section>
+  <section id="servis">
+    <div class="container">
+      <h2>Poradenství a servis</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/img/servis.jpg" width="535">
+          <br><br>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="/img/projects/001.JPG" data-lightbox="projects-2"><img src="/img/projects/001.JPG" width="250"></a>
+            </div>
+            <div class="col-md-6">
+              <a href="/img/projects/002.JPG" data-lightbox="projects-2"><img src="/img/projects/002.JPG" width="250"></a>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12">
+              <a href="/img/projects/003.JPG" data-lightbox="projects-2"><img src="/img/projects/003.JPG" width="250"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li>Dodáváme veškeré náhradní díly pro výčepní technologie.</li>
+            <li>Dodáváme chemii pro mytí pivního skla, sanitaci atp. </li>
+            <li>Jsme schopni navrhnout individuální řešení výčepního místa, doporučit umístění výčepního stojanu, chladiče, skladu sudů, myčky skla atd.</li>
+            <li>Stavíte novou pergolu, zimní zahradu, nebo prostě „trucovnu“ a chcete mít k dispozici výčep na skvělé pivo ? Určitě nás kontaktujte.</li>
+            <li>Rádi vám poradíme také s výběrem vhodného výčepu a příslušenství pro domácí čepování.</li>
+            <li>Po dohodě se zákazníkem realizujeme tematické výčepy – hasiči, myslivci, sportovci a jakákoli jiná varianta dle vlastní fantazie.</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
   </div>

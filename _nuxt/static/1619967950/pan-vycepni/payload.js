@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/pan-vycepni", {data:[{}],fetch:{},mutations:void 0});

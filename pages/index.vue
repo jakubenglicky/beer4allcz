@@ -34,7 +34,7 @@
   </section>
   <section id="programy">
     <div class="container">
-      <h2>Naše programy</h2>
+      <h2>Naše programy</h2><br>
       <div class="row">
         <div class="col-md-4">
           <nuxt-link to="pan-hospodsky">
@@ -85,7 +85,7 @@
   </section>
   <section id="servis">
     <div class="container">
-      <h2>Poradenství a servis</h2>
+      <h2>Poradenství a servis</h2><br>
       <div class="row">
         <div class="col-md-6">
           <img src="/img/servis.jpg" width="535">
@@ -100,8 +100,12 @@
           </div>
           <br>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-6">
               <a href="/img/projects/003.jpg" data-lightbox="projects-2"><img src="/img/projects/003.jpg" width="250"></a>
+            </div>
+
+            <div class="col-md-6">
+              <a href="/img/projects/004.jpg" data-lightbox="projects-2"><img src="/img/projects/004.jpg" width="250"></a>
             </div>
           </div>
         </div>

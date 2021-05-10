@@ -5,7 +5,7 @@
       <h2>Gastroprovozy, kluby a spolky</h2>
       <p class="mainDescription">Chcete mít v restauraci lepší pivo než konkurence, případně ve vaší klubovně mít skvělé pivo ? Kontaktujte nás.</p>
       <div class="mainInfo">
-          <img src="/img/gastroprovozy_big.jpg">
+          <img src="/img/gastroprovozy_big.jpg?v=2">
       </div>
       <div class="row">
         <div class="col-md-12">

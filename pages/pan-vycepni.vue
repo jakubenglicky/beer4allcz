@@ -5,7 +5,7 @@
       <h2>PAN VÝČEPNÍ - pivní znalec</h2>
       <p class="mainDescription">Budete mít znalosti jako ti nejlepší výčepní a dokážete kdykoli načepovat skvělé pivo.</p>
       <div class="mainInfo">
-          <img src="/img/pan_vycepni_big.jpg">
+          <img src="/img/pan_vycepni_big.jpg?v=2">
       </div>
       <div class="row">
         <div class="col-md-9">
@@ -32,6 +32,7 @@
           </div>
         </div>
       </div>
+      <span><b>Kurz je také možné darovat pomocí dárkového poukazu.</b></span>
     </div>
   </div>
 </template>

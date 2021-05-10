@@ -5,7 +5,7 @@
       <h2>PAN HOSPODSKÝ - domácí profesionál</h2>
       <p class="mainDescription">Budete umět vysanitovat a udržovat svůj výčep, znát teorii výroby piva a budete schopni načepovat to nejlepší pivo.</p>
       <div class="mainInfo">
-          <img src="/img/pan_hospodsky_big.jpg">
+          <img src="/img/pan_hospodsky_big.jpg?v=2">
       </div>
       <div class="row">
         <div class="col-md-9">
@@ -36,6 +36,7 @@
           </div>
         </div>
       </div>
+      <span><b>Kurz je také možné darovat pomocí dárkového poukazu.</b></span>
     </div>
   </div>
 </template>

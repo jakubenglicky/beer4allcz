@@ -39,6 +39,7 @@
         <div class="col-md-4">
           <nuxt-link to="pan-hospodsky">
             <div class="service-box">
+              <span class="tip">TIP NA DÁREK</span>
               <div class="image">
                 <img src="img/pan_hospodsky.jpg">
               </div>

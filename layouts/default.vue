@@ -58,7 +58,7 @@
       </div>
       <hr>
       <div class="copyright-row">
-        <div class="copyright">© 2021 BEER 4 ALL</div>
+        <div class="copyright">© 2022 BEER 4 ALL</div>
       </div>
     </footer>
   </div>
